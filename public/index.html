@@ -1,0 +1,1362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-linear p-0 border-bottom">
+        <div class="container-fluid p-0">
+            <a class="navbar-brand p-0" href="#"><img class="logo" src="./Imges/logo (1).png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto me-100  mb-2 mb-lg-0 fs-13">
+                    <li class="nav-item">
+                        <a class="nav-link color-ffffff" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link color-ffffff" href="#">ABOUT US</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle color-ffffff" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            PAGES +
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">About</a></li>
+                            <li><a class="dropdown-item" href="#">Oru Team</a></li>
+                            <li><a class="dropdown-item" href="#">Team Details</a></li>
+                            <li><a class="dropdown-item" href="#">Project</a></li>
+                            <li><a class="dropdown-item" href="#">Project Details</a></li>
+                            <li><a class="dropdown-item" href="#">Contact Us</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle color-ffffff" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            SERVICES +
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Service</a></li>
+                            <li><a class="dropdown-item" href="#">Service Detials</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle color-ffffff" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            BLOG +
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Blog Grid</a></li>
+                            <li><a class="dropdown-item" href="#">Blog List</a></li>
+                            <li><a class="dropdown-item" href="#">Blog Details</a></li>
+                            <li><a class="dropdown-item" href="#">Blog 2column</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link color-ffffff" href="#">CONTACT US</a>
+                    </li>
+                </ul>
+                <form class="d-lg-flex align-items-center d-none" role="search">
+                    <div class="bag-icon p-relative me-4">
+                        <i class="bi color-ffffff fs-3 bi-bag"><span>0</span></i>
+                    </div>
+                    <div class="me-4 fs-2">|</div>
+                    <i class="bi color-ffffff fs-4 me-4 fw-bolder bi-search"></i>
+                    <div class="get-btn me-100">
+                        <button>Get a Quote</button>
+                    </div>
+
+                    <div class="nav-icon">
+                        <button type="button" onclick="document.getElementById('demo').style.display='block'"><i
+                                class="fas fa-align-justify"></i></button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- -------------------------------- -->
+
+    <div id="demo" class="xs-sidebar-widget" data-aos="fade-left">
+        <div class="sidebar-widget-container">
+            <div class="widget-heading">
+                <a class="close-side-widget" href=""><i class="far fa-times-circle"></i></a>
+            </div>
+            <div class="sidebar-textwidget">
+                <div class="content-inner">
+
+                    <div class="nav-logo">
+                        <a href=""><img src="./Imges/logo (1).png" alt=""></a>
+                    </div>
+
+                    <div class="row padding-two">
+                        <div class="col-lg-6 p-0">
+                            <div class="content-thumb-box pb-3">
+                                <img src="./Imges/sid.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 p-0">
+                            <div class="content-thumb-box pb-3">
+                                <img src="./Imges/sid.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 p-0">
+                            <div class="content-thumb-box pb-3">
+                                <img src="./Imges/sid.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 p-0">
+                            <div class="content-thumb-box pb-3">
+                                <img src="./Imges/sid.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-info mb-4">
+                        <h2>Contact Info</h2>
+                        <ul class="list-style-one p-0">
+                            <li><i class="bi bi-envelope"></i>Chicago 12, Melborne City, USA</li>
+                            <li><i class="bi bi-envelope"></i>(+001) 123-456-7890</li>
+                            <li><i class="bi bi-envelope"></i>Example.com</li>
+                            <li><i class="bi bi-envelope"></i>Week Days: 09.00 to 18.00 Sunday: Closed</li>
+                        </ul>
+                    </div>
+
+                    <ul class="social-box footer-icon">
+                        <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                        </li>
+                        <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                        </li>
+                        <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                        </li>
+                        <li><a href=""><i class="fab fa-pinterest-p"></i></a></li>
+                    </ul>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- jkasfkljas lfsjkenfgasklng gnljkgnlaekgjnekljgnekljn -->
+
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+                <div class="slider-content">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col">
+                                <div class="slider-inner animate__animated animate__fadeInRight">
+                                    <h4 class="color-cdcd fs-5">LUXUARY INNOVATE</h4>
+                                    <h1 class="color-ffffff fs-80 fw-normal">Innovate Design</h1>
+                                    <h1 class="color-ffffff fs-80">in <span class="color-cdcd">Canada</span></h1>
+                                    <p class="color-ffffff mb-5">Monotonectally seize go forward intellectual capital
+                                        rather
+                                        than
+                                        high
+                                        fabricate accurate materials rather than team building</p>
+                                    <div class="slider-btn mb-5">
+                                        <span><a href="">Discover More</a></span>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <div class="slider-content">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col animate__animated animate__fadeInRight">
+                                <h4 class="color-cdcd fs-5">LUXUARY INNOVATE</h4>
+                                <h1 class="color-ffffff fs-80 fw-normal">Innovate Design</h1>
+                                <h1 class="color-ffffff fs-80">in <span class="color-cdcd">Canada</span></h1>
+                                <p class="color-ffffff mb-5">Founded in 2005, Sparch is specializing providing
+                                    innovative
+                                    such as website
+                                    design, brand identity.</p>
+                                <div class="my-d-block d-lg-flex d-block">
+                                    <div class="slider-btn mb-5 me-5">
+                                        <span><a href="">Discover More</a></span>
+                                    </div>
+                                    <div class="slider-icon d-flex">
+                                        <i class="fa-solid color-cdcd me-3 fs-4 fa-phone"></i>
+                                        <h6 class="color-ffffff fs-4"><span class="color-cdcd fs-4">Call:</span> 00 456
+                                            (123) 698
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+    <!-- <button class="btns">Discover more</button> -->
+
+    <div class="feature-section pb-60" data-aos="fade-up">
+        <div class="container">
+            <div class="row feature-top">
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature-box">
+                        <div class="feature-content">
+                            <div class="feature-icon1">
+                                <i class="fa-solid fs-80 fa-building"></i>
+                            </div>
+                            <div class="feature-title">
+                                <h2>Architecture</h2>
+                                <p>Progressively impact 24/365 relationships transparent opportunitie. Monotonectally
+                                    cooperative outside the box thinking all an open-source information</p>
+                            </div>
+                            <div class="feature-btn">
+                                <a href="">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature-box active">
+                        <div class="feature-content">
+                            <div class="feature-icon1">
+                                <i class="fa-solid fs-80 color-ffffff fa-house"></i>
+                            </div>
+                            <div class="feature-title color-ffffff">
+                                <h2>Interior Design</h2>
+                                <p>Progressively impact 24/365 relationships transparent opportunitie. Monotonectally
+                                    cooperative outside the box thinking all an open-source information</p>
+                            </div>
+                            <div class="feature-btn">
+                                <a class="color-ffffff" href="">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature-box">
+                        <div class="feature-content">
+                            <div class="feature-icon1">
+                                <i class="bi fs-80 bi-sign-yield"></i>
+                            </div>
+                            <div class="feature-title">
+                                <h2>Furnitures</h2>
+                                <p>Progressively impact 24/365 relationships transparent opportunitie. Monotonectally
+                                    cooperative outside the box thinking all an open-source information</p>
+                            </div>
+                            <div class="feature-btn">
+                                <a href="">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----About Section---- -->
+
+    <div class="about-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6" data-aos="fade-right">
+                    <div class="about-left-box">
+                        <div class="about-left-img">
+                            <img src="./Imges/about-img.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="about-left-content animate__animated animate__fadeInRight">
+                            <div class="about-left-thump">
+                                <img src="./Imges/icont1.png" alt="">
+                            </div>
+                            <div class="about-left-title pt-3">
+                                <h4 class="color-ffffff"><span class="fs-1 color-cdcd">10</span> Years of</h4>
+                                <h4 class="color-ffffff">Experiences</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-left-shape">
+                        <div class="left-shape-img">
+                            <img class="img-fluid" src="./Imges/shape1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-6" data-aos="fade-left">
+                    <div class="about-right-title">
+                        <h6 class="color-cdcd">ABOUT US</h6>
+                        <h1>Simple Minimal for Modern</h1>
+                        <h1>home <span class="color-cdcd">Exterior design</span></h1>
+                    </div>
+                    <div class="about-right-shape">
+                        <div class="shape-dex">
+                            <h1>DEX</h1>
+                        </div>
+                    </div>
+                    <p class="mb-3 py-3">Competently visualize error-free metrics before client-focused bandwidth.
+                        Interactively
+                        re-engineer intuitive core competencies via 24/365 services. Dynamically underwhelm inexpensive
+                    </p>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="about-right-icon">
+                                <div class="icon">
+                                    <span>
+                                    </span>
+                                    <p>Retail Residental Projects</p>
+                                </div>
+                            </div>
+                            <div class="about-right-icon">
+                                <div class="icon">
+                                    <span>
+                                    </span>
+                                    <p>Electrical Interior Planing</p>
+                                </div>
+                            </div>
+                            <div class="about-right-icon">
+                                <div class="icon">
+                                    <span>
+                                    </span>
+                                    <p>Best Communication</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="about-right-icon">
+                                <div class="icon">
+                                    <span>
+                                    </span>
+                                    <p>Modern Exterior Design</p>
+                                </div>
+                            </div>
+                            <div class="about-right-icon">
+                                <div class="icon">
+                                    <span>
+                                    </span>
+                                    <p>Interior Lighting Plan</p>
+                                </div>
+                            </div>
+                            <div class="about-right-icon">
+                                <div class="icon">
+                                    <span>
+                                    </span>
+                                    <p>Colour Design Services</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-right-btn">
+                        <a href="">READ MORE</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <----service section---->
+
+    <div class="service-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="servise-title-box">
+                        <div class="service-title">
+                            <h6 class="color-cdcd">SERVICES</h6>
+                            <h1>The Best <span class="color-cdcd">Services</span></h1>
+                            <h1>We Provide</h1>
+                            <div class="service-shape">
+                                <div class="service-shape-dex">
+                                    <h1>DEX</h1>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="service-title-para">
+                            <p class="about-text">Competently visualize error-free metrics before Interactively
+                                re-engineer intuitive core compete Dynamically underwhelm.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-box">
+                        <div class="service-box-icon">
+                            <img src="./Imges/icon4.png" alt="">
+                        </div>
+                        <div class="service-box-title">
+                            <h5><a href="">Home Exterior Design</a></h5>
+                            <p>Holisticly mesh web-enabled manufactur products vis-a-vis viral app <span>services has
+                                    driven expertise done.</span></p>
+                        </div>
+                        <div class="service-box-btn">
+                            <a class="color-cdcd text-decoration-none" href="">Read More <span>+</span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-box">
+                        <div class="service-box-icon">
+                            <img src="./Imges/icon3.png" alt="">
+                        </div>
+                        <div class="service-box-title">
+                            <h5><a href="">2D/3D Design Layout</a></h5>
+                            <p>Holisticly mesh web-enabled manufactur products vis-a-vis viral app <span>services has
+                                    driven expertise done.</span></p>
+                        </div>
+                        <div class="service-box-btn">
+                            <a class="color-cdcd text-decoration-none" href="">Read More <span>+</span></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-box">
+                        <div class="service-box-icon">
+                            <img src="./Imges/counter-4.png" alt="">
+                        </div>
+                        <div class="service-box-title">
+                            <h5><a href="">Furnitures Design</a></h5>
+                            <p>Holisticly mesh web-enabled manufactur products vis-a-vis viral app <span>services
+                                    has driven expertise done.</span></p>
+                        </div>
+                        <div class="service-box-btn">
+                            <a class="color-cdcd text-decoration-none" href="">Read More <span>+</span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-box">
+                        <div class="service-box-icon">
+                            <img src="./Imges/icon5.png" alt="">
+                        </div>
+                        <div class="service-box-title">
+                            <h5><a href="">Modern home Interior</a></h5>
+                            <p>Holisticly mesh web-enabled manufactur products vis-a-vis viral app <span>services
+                                    has driven expertise done.</span></p>
+                        </div>
+                        <div class="service-box-btn">
+                            <a class="color-cdcd text-decoration-none" href="">Read More <span>+</span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-box">
+                        <div class="service-box-icon">
+                            <img src="./Imges/icon6.png" alt="">
+                        </div>
+                        <div class="service-box-title">
+                            <h5><a href="">Custom Design Plan</a></h5>
+                            <p>Holisticly mesh web-enabled manufactur products vis-a-vis viral app <span>services
+                                    has driven expertise done.</span></p>
+                        </div>
+                        <div class="service-box-btn">
+                            <a class="color-cdcd text-decoration-none" href="">Read More <span>+</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <-----skill section------>
+
+    <div class="skill-section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <div class="skill-right-img">
+                        <img src="./Imges/skill-img.jpg" class="img-fluid" alt="">
+                    </div>
+                </div>
+
+                <div class="col-lg-5 col-md-5 ">
+                    <div class="skill-left-box" data-aos="fade-up-left">
+                        <div class="skill-left-title">
+                            <h5 class="color-cdcd">Skills</h5>
+                            <h1>Dex expertise <span class="color-cdcd">Skills</span></h1>
+                        </div>
+
+                        <div class="skill-left-plugin">
+                            <div class="plugin-title">
+                                <span>Interior Design</span>
+                            </div>
+                            <div class="plugin-bar">
+                                <div style="width: 70%;" class="fill">
+                                    <span style="right: 0;" class="tip">70%</span>
+                                </div>
+                            </div>
+                            <div class="plugin-title">
+                                <span>Home Exterior</span>
+                            </div>
+                            <div class="plugin-bar">
+                                <div style="width: 90%;" class="fill">
+                                    <span style="right: 0;" class="tip">90%</span>
+                                </div>
+                            </div>
+                            <div class="plugin-title">
+                                <span>Interior Design</span>
+                            </div>
+                            <div class="plugin-bar">
+                                <div style="width: 80%;" class="fill">
+                                    <span style="right: 0;" class="tip">80%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <-----------brand section--------->
+
+    <div class="brand-section">
+        <div class="container">
+            <div class="row">
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <img class="brand-img img-fluid" src="./Imges/brand-1.jpg" alt="">
+                    </div>
+                    <div class="item">
+                        <img class="brand-img img-fluid" src="./Imges/brand-2.jpg" alt="">
+                    </div>
+                    <div class="item">
+                        <img class="brand-img img-fluid" src="./Imges/brand-3.jpg" alt="">
+                    </div>
+                    <div class="item">
+                        <img class="brand-img img-fluid" src="./Imges/brand-4.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- --------project section----- -->
+
+    <div class="project-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-9 col-md-9">
+                    <div class="project-title-box">
+                        <div class="project-title">
+                            <h6 class="color-cdcd">PROJECT</h6>
+                            <h1 class="color-ffffff">Our Featured <span class="color-cdcd">Works</span></h1>
+                        </div>
+                        <div class="product-work">
+                            <h1>WORK</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 mb-5">
+                    <div class="project-right-btn">
+                        <a href="">ALL PROJECTS</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="p-bg p-0">
+
+                    <div class="p-box">
+                        <div class="p-content color-ffffff">
+                            <div class="p-in-title">
+                                <h3>Home Interior Design</h3>
+                            </div>
+                            <div class="p-in-desc">
+                                <p class="mb-3">Enthusiastically productivate intuitive part after functional
+                                    e-commerce
+                                </p>
+                            </div>
+                            <div class="p-in-btn mt-5">
+                                <a>Read More</a>
+                            </div>
+                        </div>
+                        <!-- <div class="img-responsive">
+                            <img width="1920" height="720" class="img-fluid" src="./Imges/single-cover1.jpg"
+                                alt="images">
+                        </div> -->
+                    </div>
+
+                    <div class="p-box p-media">
+                        <div class="p-content color-ffffff">
+                            <div class="p-in-title">
+                                <h3>Modern Architecture </h3>
+                            </div>
+                            <div class="p-in-desc">
+                                <p class="mb-3">Enthusiastically productivate intuitive part after functional
+                                    e-commerce
+                                </p>
+                            </div>
+                            <div class="p-in-btn mt-5">
+                                <a>Read More</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="p-box p-media">
+                        <div class="p-content color-ffffff">
+                            <div class="p-in-title">
+                                <h3>Furnitures Design</h3>
+                            </div>
+                            <div class="p-in-desc">
+                                <p class="mb-3">Enthusiastically productivate intuitive part after functional
+                                    e-commerce
+                                </p>
+                            </div>
+                            <div class="p-in-btn mt-5">
+                                <a>Read More</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------Testimonial section--------- -->
+
+    <div class="testi-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="testi-head">
+                        <h6 class="color-cdcd">TESTIMONIAL</h6>
+                        <h1>People's <span class="color-cdcd">Reviews</span></h1>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 mb-4 mt-4">
+                    <div class="owl-carousel owl-theme tesimonial">
+                        <div class="item testi-item">
+                            <div class="testi-title d-flex align-items-center">
+                                <div class="testi-title-img">
+                                    <img style="width: 90px; height: 90px;" src="./Imges/testi1.png" alt="">
+                                </div>
+                                <div class="testi-name ms-4 mt-3 color-ffffff">
+                                    <h5>Kristina Lee</h5>
+                                    <p>Civil Engineer</p>
+                                </div>
+                                <div class="testi-icon">
+                                    <i class="fas fa-quote-left"></i>
+                                </div>
+                            </div>
+                            <div class="testi-para">
+                                <p class="mt-4 mb-4 color-ffffff">Credibly communicate ethical mindshare vis-a-vis
+                                    premium nice Interactively fabricate superior methodologies for top-lines into
+                                    Completely expedite impactful content with clicks-and-mortars Intrinsicly
+                                    disseminate line services.</p>
+                            </div>
+                            <div class="testi-star mb-4">
+                                <div class="star-icon color-ffffff d-flex">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="item testi-item">
+                            <div class="testi-title d-flex align-items-center">
+                                <div class="testi-title-img">
+                                    <img style="width: 90px; height: 90px;" src="./Imges/testi1.png" alt="">
+                                </div>
+                                <div class="testi-name ms-4 mt-3 color-ffffff">
+                                    <h5>Kristina Lee</h5>
+                                    <p>Civil Engineer</p>
+                                </div>
+                                <div class="testi-icon">
+                                    <i class="fas fa-quote-left"></i>
+                                </div>
+                            </div>
+                            <div class="testi-para">
+                                <p class="mt-4 mb-4 color-ffffff">Credibly communicate ethical mindshare vis-a-vis
+                                    premium nice Interactively fabricate superior methodologies for top-lines into
+                                    Completely expedite impactful content with clicks-and-mortars Intrinsicly
+                                    disseminate line services.</p>
+                            </div>
+                            <div class="testi-star mb-4">
+                                <div class="star-icon color-ffffff d-flex">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-6">
+                    <div class="testi-right-img">
+                        <img class="img-fluid" src="./Imges/testi-1.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <hr>
+    </div>
+
+    <!-- -----------team section---------- -->
+
+    <div class="team-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="taem-head">
+                        <h6 class="color-cdcd">ENGINEERS</h6>
+                        <h1>Expart <span class="color-cdcd">Engineer</span></h1>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-5" data-aos="fade-up"
+            data-aos-anchor-placement="top-center">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="team-box">
+                        <div class="team-img">
+                            <img src="./Imges/team-1.jpg" alt="">
+                            <div class="img-ceter-icon">
+                                <a href=""><i class="fas fa-arrows-alt"></i></a>
+                            </div>
+                        </div>
+                        <div class="team-content">
+                            <div class="t-c-title">
+                                <h5><a class="text-decoration-none text-black" href="">Resta Wany</a></h5>
+                            </div>
+                            <div class="t-c-text">
+                                <p>Civil Engineer</p>
+                            </div>
+                            <div class="t-c-social">
+                                <div class="social-icon">
+                                    <a href="#"><span><i class="fab fa-facebook-f"></i></span></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="team-box">
+                        <div class="team-img">
+                            <img src="./Imges/team-2.jpg" alt="">
+                            <div class="img-ceter-icon">
+                                <a href=""><i class="fas fa-arrows-alt"></i></a>
+                            </div>
+                        </div>
+                        <div class="team-content">
+                            <div class="t-c-title">
+                                <h5><a class="text-decoration-none text-black" href="">Jack Martin</a></h5>
+                            </div>
+                            <div class="t-c-text">
+                                <p>AI Designer</p>
+                            </div>
+                            <div class="t-c-social">
+                                <div class="social-icon">
+                                    <a href="#"><span><i class="fab fa-facebook-f"></i></span></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="team-box">
+                        <div class="team-img">
+                            <img src="./Imges/team-3.jpg" alt="">
+                            <div class="img-ceter-icon">
+                                <a href=""><i class="fas fa-arrows-alt"></i></a>
+                            </div>
+                        </div>
+                        <div class="team-content">
+                            <div class="t-c-title">
+                                <h5><a class="text-decoration-none text-black" href="">Amelia Daniel</a></h5>
+                            </div>
+                            <div class="t-c-text">
+                                <p>Civil Engineer</p>
+                            </div>
+                            <div class="t-c-social">
+                                <div class="social-icon">
+                                    <a href="#"><span><i class="fab fa-facebook-f"></i></span></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="team-box">
+                        <div class="team-img">
+                            <img src="./Imges/team-4.jpg" class="img-fluid" alt="">
+                            <div class="img-ceter-icon">
+                                <a href=""><i class="fas fa-arrows-alt"></i></a>
+                            </div>
+                        </div>
+                        <div class="team-content">
+                            <div class="t-c-title">
+                                <h5><a class="text-decoration-none text-black" href="">Rusha Shen</a></h5>
+                            </div>
+                            <div class="t-c-text">
+                                <p>Managing Dr.</p>
+                            </div>
+                            <div class="t-c-social">
+                                <div class="social-icon">
+                                    <a href="#"><span><i class="fab fa-facebook-f"></i></span></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- --------counter section----------- -->
+
+    <div class="counter-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="counter-head">
+                        <h6 class="color-cdcd">CONTACT</h6>
+                        <h1 class="color-ffffff">We have general</h1>
+                        <h1 class="color-cdcd">Achivement</h1>
+                    </div>
+                    <p>Competently visualize error-free metrics before Interactively re-engineer intuitive</p>
+                </div>
+                <div class="col-lg-8 col-md-6">
+                    <div class="row text-center">
+                        <div class="col-lg-3 col-md-6">
+                            <div class="counter-box">
+                                <div class="counter-img">
+                                    <img src="./Imges/counter-4.png" alt="">
+                                </div>
+                                <div class="counter-title">
+                                    <h5 class="color-ffffff mt-3">PROJECT</h5>
+                                </div>
+                                <div class="counter-text mt-2">
+                                    <h1 class="color-cdcd">10<span class="color-cdcd">k</span></h1>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="counter-box">
+                                <div class="counter-img">
+                                    <img src="./Imges/counter-3.png" alt="">
+                                </div>
+                                <div class="counter-title">
+                                    <h5 class="color-ffffff mt-3">Happy Clients</h5>
+                                </div>
+                                <div class="counter-text mt-2">
+                                    <h1 class="color-cdcd">3<span class="color-cdcd">k</span></h1>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="counter-box">
+                                <div class="counter-img">
+                                    <img src="./Imges/counter-2.png" alt="">
+                                </div>
+                                <div class="counter-title">
+                                    <h5 class="color-ffffff mt-3">Engineers</h5>
+                                </div>
+                                <div class="counter-text mt-2">
+                                    <h1 class="color-cdcd">109</h1>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="counter-box">
+                                <div class="counter-img">
+                                    <img src="./Imges/counter-1.png" alt="">
+                                </div>
+                                <div class="counter-title">
+                                    <h5 class="color-ffffff mt-3">Award Win</h5>
+                                </div>
+                                <div class="counter-text mt-2">
+                                    <h1 class="color-cdcd">1<span class="color-cdcd">k</span></h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------form section------------ -->
+
+    <div class="form-section">
+        <div class="container">
+            <div class="row contact-form">
+                <div class="col-lg-5 col-md-6 p-0">
+                    <div class="form-left-box">
+                        <div class="col-lg-12">
+                            <div class="form-l-title">
+                                <h2 class="color-ffffff">Brance Office</h2>
+                            </div>
+                            <div class="form-l-item pt-4 d-flex">
+                                <div class="l-item-icon">
+                                    <i class="bi bi-geo-alt"></i>
+                                </div>
+                                <div class="l-item-desc color-ffffff">
+                                    <h5>USA Office</h5>
+                                    <p>Dolfin RD, 23/A New Market <br> Sandigo, USA</p>
+                                </div>
+                            </div>
+                            <div class="form-l-item pt-4 d-flex">
+                                <div class="l-item-icon">
+                                    <i class="bi bi-envelope"></i>
+                                </div>
+                                <div class="l-item-desc color-ffffff">
+                                    <h5>London Office</h5>
+                                    <p>Dex Road, 7/B Happy Club <br> California, USA</p>
+                                </div>
+                            </div>
+                            <div class="form-l-item pt-4 d-flex">
+                                <div class="l-item-icon">
+                                    <i class="bi bi-telephone-x"></i>
+                                </div>
+                                <div class="l-item-desc color-ffffff">
+                                    <h5>Dhaka Office</h5>
+                                    <p>Dolfin RD, 23/A New Market <br> Sandigo, USA</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-7 col-md-6">
+                    <div class="row">
+                        <div class="form-r-box">
+                            <div class="form-r-title">
+                                <h3 class="pb-4">Drop your text here</h3>
+                            </div>
+                            <form action="">
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6">
+                                        <div class="input-name">
+                                            <input type="text" placeholder="Your Name">
+                                            <i class="fas fa-user"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6">
+                                        <div class="input-name">
+                                            <input type="text" placeholder="Phone No.">
+                                            <i class="fas fa-phone"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6">
+                                        <div class="input-name">
+                                            <input type="text" placeholder="E-mail">
+                                            <i class="far fa-envelope"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6">
+                                        <div class="input-name">
+                                            <select name="Subject" id="subject">
+                                                <option value="subject">Subject</option>
+                                                <option value="service">Select Service</option>
+                                                <option value="name">Your Name</option>
+                                                <option value="mail">Your Mail</option>
+                                                <option value="phone">Phone No.</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <div class="input-name">
+                                            <textarea name="" id="" cols="20" rows="5"
+                                                placeholder="Write Massage"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </form>
+                            <div class="form-r-btn">
+                                <button>SEND NOW</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------news section------------- -->
+
+    <div class="news-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="taem-head">
+                        <h6 class="color-cdcd">LETESTS NEWS</h6>
+                        <h1>Get latests <span class="color-cdcd">News</span></h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="news-box">
+                        <div class="news-img">
+                            <a href=""><img src="./Imges/blog-1.jpg" alt=""></a>
+                        </div>
+                        <div class="news-content">
+                            <div class="news-post color-cdcd">
+                                <div class="post-icon">
+                                    <i class="fas fa-calendar-alt"></i>
+                                </div>
+                                <a class="text-decoration-none color-cdcd" href="">10</a>
+                                <span>Jan, 2022</span>
+                            </div>
+                            <div class="news-title pt-3">
+                                <h5><a class="text-decoration-none" href="">Things the know what is the perfect
+                                        house</a></h5>
+                            </div>
+                            <div class="news-bottom pt-3">
+                                <div class="inbottom-icon">
+                                    <i class="bi color-cdcd me-1 bi-person"></i>
+                                    <span class="me-1">John Doe</span>
+                                    <span class="me-2 color-cdcd">|</span>
+                                </div>
+                                <div class="inbottom-icon">
+                                    <i class="far color-cdcd me-1 fa-comment-alt"></i>
+                                    <span>0 Comment</span>
+                                </div>
+                                <div class="inbottom-arrow">
+                                    <i class="bi bi-arrow-right"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="news-box">
+                        <div class="news-img">
+                            <a href=""><img src="./Imges/blog-2.jpg" alt=""></a>
+                        </div>
+                        <div class="news-content">
+                            <div class="news-post color-cdcd">
+                                <div class="post-icon">
+                                    <i class="fas fa-calendar-alt"></i>
+                                </div>
+                                <a class="text-decoration-none color-cdcd" href="">31</a>
+                                <span>Jan, 2022</span>
+                            </div>
+                            <div class="news-title pt-3">
+                                <h5><a class="text-decoration-none" href="">Trending Architecture in Sandigo, USA</a>
+                                </h5>
+                            </div>
+                            <div class="news-bottom pt-3">
+                                <div class="inbottom-icon">
+                                    <i class="bi color-cdcd me-1 bi-person"></i>
+                                    <span class="me-1">John Doe</span>
+                                    <span class="me-2 color-cdcd">|</span>
+                                </div>
+                                <div class="inbottom-icon">
+                                    <i class="far color-cdcd me-1 fa-comment-alt"></i>
+                                    <span>0 Comment</span>
+                                </div>
+                                <div class="inbottom-arrow">
+                                    <i class="bi bi-arrow-right"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="news-box">
+                        <div class="news-img">
+                            <a href=""><img src="./Imges/blog-3.jpg" alt=""></a>
+                        </div>
+                        <div class="news-content">
+                            <div class="news-post color-cdcd">
+                                <div class="post-icon">
+                                    <i class="fas fa-calendar-alt"></i>
+                                </div>
+                                <a class="text-decoration-none color-cdcd" href="">03</a>
+                                <span>Feb, 2022</span>
+                            </div>
+                            <div class="news-title pt-3">
+                                <h5><a class="text-decoration-none" href="">Best Interior Design and Modern Villa</a>
+                                </h5>
+                            </div>
+                            <div class="news-bottom pt-3">
+                                <div class="inbottom-icon">
+                                    <i class="bi color-cdcd me-1 bi-person"></i>
+                                    <span class="me-1">John Doe</span>
+                                    <span class="me-2 color-cdcd">|</span>
+                                </div>
+                                <div class="inbottom-icon">
+                                    <i class="far color-cdcd me-1 fa-comment-alt"></i>
+                                    <span>0 Comment</span>
+                                </div>
+                                <div class="inbottom-arrow">
+                                    <i class="bi bi-arrow-right"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----------footer secrion-------- -->
+
+    <div class="footer-section">
+        <div class="container">
+            <div class="row footer-boder">
+                <div class="col-lg-6 col-md-6">
+                    <div class="subscribe-title">
+                        <h2 class="color-ffffff">Sign Up To get latest Update</h2>
+                        <p>Sign up for our monthly newsletter for the latest news &amp; articles</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="subscribe-btn">
+                        <form action="">
+                            <div class="subscribe-form">
+                                <input type="text" placeholder="Enter Your E-mail">
+                                <button>SUBSCRIBE</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="footer-box">
+                        <div class="footer-logo">
+                            <img src="./Imges/logo (1).png" alt="">
+                        </div>
+                        <div class="footer-para my-3">
+                            <p class="color-ffffff">Founded in 2005, Sparch is specializing such as website design,
+                                brand .</p>
+                        </div>
+                        <div class="footer-icon">
+                            <a href=""><i class="fab fa-facebook-f"></i></a>
+                            <a href=""><i class="fab fa-instagram"></i></a>
+                            <a href=""><i class="fab fa-twitter"></i></a>
+                            <a href=""><i class="fab fa-pinterest-p"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-6 mb-4 text-center">
+                    <div class="quicklink">
+                        <h3 class="color-ffffff pb-3">Quick Links</h3>
+                        <ul class="link-footer ps-0">
+                            <li><a href="">+ Portfolio</a></li>
+                            <li><a href="">+ About</a></li>
+                            <li><a href="">+ Planing</a></li>
+                            <li><a href="">+ Letest News</a></li>
+                            <li><a href="">+ Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 text-center">
+                    <div class="quicklink">
+                        <h3 class="color-ffffff pb-3">Help Links</h3>
+                        <ul class="link-footer p-0">
+                            <li><a href="">+ Sevice</a></li>
+                            <li><a href="">+ Testimonials</a></li>
+                            <li><a href="">+ Our Team</a></li>
+                            <li><a href="">+ Designing</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="contact-box contact-box4">
+                            <h3 class="color-ffffff mb-4">Contact Us</h3>
+                            <div class="contact-inner d-flex">
+                                <div class="contact-icon">
+                                    <i class="bi bi-telephone-x"></i>
+                                </div>
+                                <div class="contact-para me-5">
+                                    <p>Phone Number <br> <span>+123 456 7890</span></p>
+                                </div>
+                            </div>
+                            <div class="contact-inner d-flex">
+                                <div class="contact-icon">
+                                    <i class="bi bi-envelope"></i>
+                                </div>
+                                <div class="contact-para">
+                                    <p>E-Mail <br> <span>example@gmail.com</span></p>
+                                </div>
+                            </div>
+                            <div class="contact-inner d-flex">
+                                <div class="contact-icon">
+                                    <i class="bi bi-geo-alt"></i>
+                                </div>
+                                <div class="contact-para">
+                                    <p>Location <br> <span>16/B, California, USA</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+            </div>
+            <div class="row copy-border">
+                <div class="col-lg-6 col-md-6">
+                    <div class="footer-copy">
+                        <p>Copyright © 2022 <span class="color-cdcd">Dream</span> IT. All rights reserved</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="footer-menu-copy">
+                        <p>Privacy Policy <span class="mx-3 fs-4">|</span> <span>Contact</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="arrow-bottom-top">
+        <a href="#">
+            <i class="bi bi-arrow-up"></i>
+        </a>
+
+    </div>
+
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+
+    <script type="text/javascript">
+        $('.one-time').slick({
+            dots: true,
+            infinite: true,
+            speed: 300,
+            slidesToShow: 1,
+            adaptiveHeight: true
+        });
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+        integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>$('.tesimonial').owlCarousel({
+            loop: true,
+            margin: 10,
+            autoplay: true,
+            nav: true,
+            dots: false,
+            nav: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 1
+                }
+            }
+        })</script>
+    <script>$('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            dots: false,
+            nav: false,
+            autoplay: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 2
+                },
+                1000: {
+                    items: 4
+                }
+            }
+        })</script>
+</body>
+
+</html>
